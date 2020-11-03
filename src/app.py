@@ -5,7 +5,7 @@ from flask_jwt import JWT
 from src.security import *
 from src.resources.user import UserRegister
 from src.resources.item import Item,ItemList
-from src.resources.store import Store,StoreList
+#from src.resources.store import Store,StoreList
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydata.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
